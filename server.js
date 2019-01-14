@@ -1,10 +1,19 @@
 var express = require('express')
 var logger = require('morgan')
 var bodyParser = require('body-parser')
-var admin = require('firebase-admin');
+var admin = require('firebase');
 
-//Get a database reference 
-var db = admin.database
+// Initialize Firebase
+// TODO: Replace with your project's customized code snippet
+var config = {
+    apiKey: "AIzaSyA0AnH4GzHsk8qHCbWdN9LRQYYks8lrH4c",
+    authDomain: "buildings-f63c6.firebaseapp.com",
+    databaseURL: "https://buildings-f63c6.firebaseio.com",
+    projectId: "buildings-f63c6",
+    storageBucket: "buildings-f63c6.appspot.com",
+    messagingSenderId: "10696684438"
+};
+firebase.initializeApp(config);
 
 //Create instance of express app
 var app = express()
