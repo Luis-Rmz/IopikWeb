@@ -1,0 +1,28 @@
+{
+  "name": "iopikweb",
+  "version": "1.0.0",
+  "description": "Version Iopik Web",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheScooller/IopikWeb.git"
+  },
+  "author": "Luis Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheScooller/IopikWeb/issues"
+  },
+  "homepage": "https://github.com/TheScooller/IopikWeb#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "firebase-admin": "^6.5.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "npm": "^6.5.0"
+  }
+}
